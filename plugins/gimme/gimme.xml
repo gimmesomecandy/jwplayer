@@ -1,0 +1,27 @@
+<plugin>
+	<title>Gimme</title>
+	<filename>gimme.swf</filename>
+	<version>1.00</version>
+	<compatibility>Requires 4.5 or later</compatibility>
+	<author>GimmeSomeCandy LLC</author>
+	<description>
+        Adds a dock button that allows you to accept donations.
+	</description>
+	<href>http://www.gimmesomecandy.com/developer/plugins</href>
+
+    <flashvars>
+        <flashvar>
+            <name>url</name>
+            <default>(empty)</default>
+            <description>URL of your donation page</description>
+
+            <name>caption</name>
+            <default>donate</default>
+            <description>Caption beneath the icon</description>
+
+            <name>icon</name>
+            <default>0</default>
+            <description>0=default, 1=GimmeSomeCandy, 2=GimmeSomeCandy color</description>
+        </flashvar>
+    </flashvars>
+</plugin>
