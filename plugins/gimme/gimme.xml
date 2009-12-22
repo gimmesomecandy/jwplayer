@@ -1,7 +1,7 @@
 <plugin>
 	<title>Gimme</title>
 	<filename>gimme.swf</filename>
-	<version>1.00</version>
+	<version>1.01</version>
 	<compatibility>Requires 4.5 or later</compatibility>
 	<author>GimmeSomeCandy LLC</author>
 	<description>
@@ -14,6 +14,10 @@
             <name>url</name>
             <default>(empty)</default>
             <description>URL of your donation page</description>
+
+            <name>target</name>
+            <default>_blank</default>
+            <description>HTML TARGET for destination link. Set to _self to open in the same page.</description>
 
             <name>caption</name>
             <default>donate</default>
